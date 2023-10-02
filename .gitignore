@@ -1,0 +1,33 @@
+# Django-related files
+*.pyc
+__pycache__
+*.pyo
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.bak
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Site-specific settings
+db.sqlite3
+
+# Media and static files (usually served by web server)
+media/
+static/
+
+# Ignore secret keys and sensitive information
+*.secret_key
+*.settings
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore Python virtual environment files
+.python-version
+env/
